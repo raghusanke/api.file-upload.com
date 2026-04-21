@@ -3,6 +3,8 @@ node_modules/
 
 # Environment — never commit real credentials
 .env
+.env.example
+.env.*
 
 # Local uploads (files land here before S3 in dev)
 uploads/
