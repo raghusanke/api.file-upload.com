@@ -1,0 +1,23 @@
+{
+  "name": "api.file-upload.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:worker": "node worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1033.0",
+    "@aws-sdk/client-s3": "^3.1033.0",
+    "@aws-sdk/client-sqs": "^3.1033.0",
+    "@aws-sdk/lib-dynamodb": "^3.1033.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
+}
